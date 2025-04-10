@@ -39,7 +39,7 @@ const generateToken = () => {
 
 // Send Reset Email
 const sendResetEmail = (email, token) => {
-  const link = `http://localhost:5173/reset-password/${token}`;
+  const link = `https://passwordreset-mocha.vercel.app/reset-password/${token}`;
   return transporter.sendMail({
     from: 'timbertimber710@gmail.com',
     to: email,
