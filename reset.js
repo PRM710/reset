@@ -27,8 +27,8 @@ const User = mongoose.model('users', userSchema);
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'timbertimber710@gmail.com',      // 🔁 Replace with your Gmail
-    pass: 'xqlf xhgo nyci ugul',       // 🔁 Replace with your App Password (not your regular password!)
+    user: 'digitallaw2025@gmail.com',      // 🔁 Replace with your Gmail
+    pass: 'kjrb jzxs qrbv oppr',       // 🔁 Replace with your App Password (not your regular password!)
   },
 });
 
